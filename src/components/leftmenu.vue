@@ -27,7 +27,7 @@ export default {
   name: "leftMenu",
   data() {
     return {
-      tools: [],
+      tools: [],// 公路蓝
     };
   },
   created() {
