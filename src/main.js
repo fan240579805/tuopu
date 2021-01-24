@@ -3,6 +3,24 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 
+// element
+import 'element-ui/lib/theme-chalk/index.css';
+import { Button, Select,Submenu,Menu,MenuItem} from 'element-ui';
+
+Vue.use(Button)
+Vue.use(Select)
+Vue.use(Submenu)
+Vue.use(Menu)
+Vue.use(MenuItem)
+
+
+
+//less
+import '@/assets/icon.css';
+import less from 'less'
+Vue.use(less)
+
+
 Vue.config.productionTip = false
 
 new Vue({
