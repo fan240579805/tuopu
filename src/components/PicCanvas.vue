@@ -59,7 +59,7 @@ export default {
                 x: 163.42857142857144,
                 y: 166,
                 direction: 1,
-                anchorIndex: 1,gi
+                anchorIndex: 1,
                 id: "efe54cb",
               },
               { x: 163.42857142857144, y: 117 },
